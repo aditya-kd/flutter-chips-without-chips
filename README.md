@@ -1,6 +1,7 @@
 # first_app
 
-A new Flutter project.
+A new Flutter project. In this you can select topics of your choices from a list of buttons( Chips as we call in flutter).
+This was made without using the Chip Widget in Flutter.
 
 ## Getting Started
 
