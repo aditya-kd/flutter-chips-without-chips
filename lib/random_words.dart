@@ -72,7 +72,6 @@ class RandomWordsState extends State<RandomWords> {
       padding: const EdgeInsets.all(16),
       itemBuilder: (context, index) {
         if (index % 3 != 0) return Padding(padding: EdgeInsets.all(2));
-        // _randomWordPairs.addAll(masterList.take(3));
         return _buildRow(
             masterList[index], masterList[index + 1], masterList[index + 2]);
       },
@@ -124,7 +123,6 @@ class RandomWordsState extends State<RandomWords> {
     return ListTile(
         title: Wrap(
             alignment: WrapAlignment.spaceEvenly,
-            runAlignment: WrapAlignment.spaceAround,
             runSpacing: 7,
             spacing: 10,
             children: [
